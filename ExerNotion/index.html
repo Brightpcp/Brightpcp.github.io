@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<head>
+    <title>ExerNotion</title>
+
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav>
+        <input id="nav-toggle" type="checkbox">
+        <div class="logo" ><a href="#"><strong>Exer</strong>Notion</a></div>
+        <ul class="links">
+            <li><a href="#add">Add Your Activity</a></li>
+            <li><a href="C:\Users\user\Desktop\ExerNotion\history.html">Activity History</a></li>
+            <li><a href="#footer">Subscribe</a></li>
+            <li><a href="#">Sign Up</a></li>
+        </ul>
+        <label for="nav-toggle" class="icon-burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </label>
+    </nav>
+    <!--Add your Active-->
+    <div class="container" id="add">
+        <h2>Add your Activity</h2>
+
+        <div class="banner">
+            <div class="banner-area"><img src="./icon-sport/running (1).png" alt="running"></div>
+            <div class="banner-area"><img src="./icon-sport/swimming (1).png" alt="swimming"></div>
+            <div class="banner-area"><img src="./icon-sport/basketball (1).png" alt="basketball"></div>
+            <div class="banner-area"><img src="./icon-sport/bike (1).png" alt="bike"></div>
+            <div class="banner-area"><img src="./icon-sport/dumbbell (1).png" alt="dumbbell"></div>
+            <div class="banner-area"><img src="./icon-sport/ping-pong (1).png" alt="ping-pong"></div>
+        </div>
+        <div class="banner">
+            <div class="banner-area"><img src="./icon-sport/boxing-gloves.png" alt="boxing"></div>
+            <div class="banner-area"> <img src="./icon-sport/tennis (1).png" alt="tennis"></div>
+            <div class="banner-area"><img src="./icon-sport/yoga (1).png" alt="yoga"></div>
+            <div class="banner-area"><img src="./icon-sport/soccer-ball (1).png" alt="soccer"></div>
+            <div class="banner-area"><img src="./icon-sport/golf (1).png" alt="golf"></div>
+            <div class="banner-area"><img src="./icon-sport/ellipsis.png" alt="other"></div>
+        </div>
+
+
+        <div class="activity-container">
+            <div class="activity">
+                <div class="activity-name">
+                    <h3>Activity Name</h3>
+                    <input id="fullname" name="fullname" type="text" placeholder="FirstName LastName" onchange=""
+                        required />
+                </div>
+                <div class="date">
+                    <h3>Date</h3>
+                    <input id="datename" type="datetime-local" placeholder="dd/mm/yyyy">
+                </div>
+                <div class="activity-type">
+                    <h3>Activity Type</h3>
+                    <select>
+                        <option>running</option>
+                        <option>swimming</option>
+                        <option>basketball</option>
+                        <option>bike</option>
+                        <option>dumbbell</option>
+                        <option>ping-pong</option>
+                        <option>boxing</option>
+                        <option>tennis</option>
+                        <option>yoga</option>
+                        <option>soccer</option>
+                        <option>golf</option>
+                        <option>other</option>
+
+                    </select>
+                </div>
+                <div class="activity-duration">
+                    <h3>Activity-Duration</h3>
+                    <input type="text">
+                </div>
+                <div class="describe">
+                    <h3>Describe this journal</h3>
+                    <input type="text">
+                </div>
+                <div class="add-button">
+                    <a href="">
+                        ADD ACTIVITY
+                    </a>
+                </div>
+
+            </div>
+            <div class="activity-img">
+                <img src="./icon-sport/running (1).png" alt="">
+                
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!--Activity History-->
+   
+
+    <!--footer-->
+    <div class="footer" id="footer">
+        <div class="footer-text">
+            <h2>Subscribe to Our Newsletter</h2>
+            <h4>Get the latest product updates, company news, and special offers delivered right to your inbox.</h4>
+            
+        </div>
+
+    </div>
+</body>
+
+</html>
