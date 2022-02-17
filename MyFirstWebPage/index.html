@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bangkok</title>
+        <link rel="stylesheet" href="./main.css">
+    </head>
+    <body>
+        <h1 id="main-title">Bangkok</h1>
+        <img src="https://images.unsplash.com/photo-1523731407965-2430cd12f5e4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" width="400px">
+        
+        <p class="paragraph-one"><em>Bangkok</em> is the capital and most populous city of Thailand. It is known in Thai as 
+        Krung Thep Maha Nakhon or simply Krung Thep. The city occupies 1,568.7 square kilometres 
+        (605.7 sq mi) in the Chao Phraya River delta in central Thailand and has a population of over 
+        eight million, 12.6 percent of the country's population. Over fourteen million people 
+        (22.2 percent) lived within the surrounding <em>Bangkok</em> Metropolitan Region at the 2010 census, 
+        making <em>Bangkok</em> the nation's primate city, dwarfing Thailand's other urban centres in both size 
+        and importance to the national economy.</p>
+
+        <p class="paragraph-two"><em>Bangkok</em> traces its roots to a small trading post during the Ayutthaya Kingdom in the 
+        15th century, which eventually grew and became the site of two capital cities: Thonburi in 
+        1768 and Rattanakosin in 1782. <em>Bangkok</em> was at the heart of the modernization of Siam, 
+        later renamed Thailand, during the late-19th century, as the country faced pressures from the 
+        West. The city was at the centre of Thailand's political struggles throughout the 20th 
+        century, as the country abolished absolute monarchy, adopted constitutional rule, and 
+        underwent numerous coups and several uprisings. The city grew rapidly during the 1960s through 
+        the 1980s and now exerts a significant impact on Thailand's politics, economy, education, 
+        media and modern society.</p>
+        <a href="https://en.wikipedia.org/wiki/Bangkok" target="_blank">Link to wikipedia</a>
+        <h2>Basic Info</h2>
+        <ul>
+            <li>Country: Thailand </li>
+            <li>Area: 1,568.7 sq km </li>
+            <li>Population: 8,305,218 </li>
+        </ul>
+        <table>
+            <tr>
+                <th>Info</th>
+                <th>Info Value</th>
+            </tr>
+            <tr>
+                <td>Country</td>
+                <td>Thailand</td>
+            </tr>
+            <tr>
+                <td>Area</td>
+                <td>1,568.7 sq km</td>
+            </tr>
+            <tr>
+                <td>Population</td>
+                <td>8,305,218</td>
+            </tr>
+        </table>
+        <img src="./images/andreas-brucker-g5Uh7nP60FA-unsplash.jpg" width="30%">
+        <img src="./images/florian-wehde--y3sidWvDxg-unsplash.jpg" width="30%">
+        <img src="./images/lisheng-chang-m9BBVrPl87M-unsplash.jpg"width="30%">
+    </body>
+    <form>
+        <h2>Travel reservation form</h1>
+        <h3>*denotes mandotore</h2>
+
+            <div>
+                <lable>Full name*:</lable><br>
+                <input id="fullname" name="fullname" type="text" placeholder="FirstName LastName" onchange="" required />
+            </div>
+            
+            <div>
+                <lable>Email address*:</lable><br>
+                <input id="email" name="email" type="email" placeholder="EMAIL_ADDRESS" onchange="" required />
+            </div>
+            
+            <div>    
+                <lable>Select Tour Package*:</lable><br>         
+                <select >
+                    <option value="Single">Single</option>
+                    <option value="Couple">Couple</option>
+                </select>   
+            </div>
+            
+            <div>
+                <label>Arrival date*:</label><br>
+                <input id="datetime" name="datetime" type="datetime-local" placeholder="m/d/y">
+            </div>
+            
+            <div>
+                <label>Number of persons*:</label><br>
+                <input id="numofperson" name="numofperson" type="number" placeholder="UNKNOWN_TYPE">
+            </div>
+            
+            <div>
+                <label>What would you want to avail?*</label><br>
+                <label for="avail"> Boarding</label>
+                <input type="checkbox" id="Boarding" name="avail"><br>
+                <label for="avail"> Fooding</label>
+                <input type="checkbox" id="Fooding" name="avail"><br>
+                <label for="avail"> Sight seeing</label>
+                <input type="checkbox" id="Sight seeing" name="avail" ><br>   
+            </div>
+            <div>
+                <label>Discout Coupon code:</label><br>
+                <input id="coupon" name="coupon" type="text" placeholder="UNKNOWN_TYPE">
+            </div>
+            <div>
+                <label>Terms and conditions*</label><br>
+                <input type="radio" id="agree" name="age" value="agree">
+                <label for="agree">I agree</label><br>
+                <input type="radio" id="disagree" name="age" value="disagree">
+                <label for="disagree">I disagree</label><br>  
+            </div>
+            <div>
+                <label>feedback :</label>
+
+
+            </div>
+            <div>
+                <input type="submit" value="Complete !!">
+            </div>
+
+
+            
+    </form>
+</html>
