@@ -1,85 +1,87 @@
-/*---header---*/
-* {
+.body{
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
-body {
-    margin: 0;
-}
-p {
-    margin: 0px;
-}
-a{
+
+a{    
     text-decoration: none;
+    color: black;
 }
+/*herder*/
 header{
     position: fixed;
-    background-color: white;
     width: 100%;
-    z-index:1;
+    height: 4rem;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background-color: white;
 }
-
-.content {
-    height: 64px;
-    margin: 0 24px;
-    
-}
-
-.desktop{
+.nav-menu{
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    position: relative;
-    top: 7px;
-    
-}
-.logo {
-    display: flex;
-    height: 32px;
-    align-items: center;
+    padding: 0 24px;
 }
 
-.logo p {
+.nav-menu .logo {
+    height: 2rem;
+}
+
+.nav-menu .logo-text {
     text-transform: uppercase;
-    letter-spacing: 0.1em;
-    font-size: 1.25em;
+    color: gray;
+    font-size: 1.25rem;
 }
-.menu-list{
-    display: flex;
-    list-style-type: none;
-    
-    
-}
-
-.desktop li{
-    margin-left: 16px;
+.nav-menu .logo-text strong{
     color: black;
-    
-    
-}
-.desktop li:hover {
-    border-bottom: 2px solid black;
 }
 
-/*main*/
-.hero{
-    
+.nav-list{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
 }
 
+.nav-list ul{
+    display: flex;
+}
+.nav-list li{
+    list-style: none;
+    padding-left: 1rem;
+}
 
-/*second-main*/
+/*banner*/
+.banner{
+    position: relative;
+    top: 64px;
+    background-color: rgb(201, 198, 194);
+    padding: 2rem 1.5rem;
+    display: flex;
 
+}
+.banner-img{
+    max-width: 60%;
+}
+.banner-img img{
+    width: 100%;
+    height: auto;
+}
 
+.banner-text{
+    padding:0 1.5rem;
+    margin: auto;
+}
+.banner-text h1{
+    display: inline;
+}
 
-
-
-   
-
-
-
-
-
-
-
-
-
-
+.banner-text h3{
+    font-size: medium;
+}
+.banner-button{
+    color: white;
+    text-align: center;
+    background-color: rgb(53, 51, 51);
+    padding: 8px;
+}
