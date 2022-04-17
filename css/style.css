@@ -369,6 +369,11 @@ section{
     }
   }
 
+  audio {
+      width: 280px;
+      margin-top: 2rem;
+  }
+
 /*--------about section---------*/
 .about-section{
     background-color: var(--dark-light);
