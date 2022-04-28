@@ -440,7 +440,7 @@ section{
     margin-bottom: 30px;
 }
 .menu-tab-item{
-    font-size: 18px;
+    font-size: 15px;
     text-transform: capitalize;
     border: none;
     background-color:transparent;
@@ -450,6 +450,7 @@ section{
     margin: 0 10px 10px;
     transition: color 0.3s ease;
     display: inline-block;
+    font-family: 'Press Start 2P', cursive;
     
 }
 .menu-tab-item.active{
@@ -496,6 +497,7 @@ section{
     margin-right: 15px;
 }
 .skill-item-new h3{
+    font-size: 14px;
     text-shadow: 2px 2px 5px rgb(221, 221, 34);
 }
 
