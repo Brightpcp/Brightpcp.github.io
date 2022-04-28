@@ -232,8 +232,8 @@ section{
 }
 .header .nav-toggler{
     height: 34px;
-    width: 44px;
-    margin-right: 15px;
+    width: 70px;
+    margin-right: 20px;
     cursor: pointer;
     border: none;
     background-color: transparent;
@@ -289,7 +289,7 @@ section{
     right: 0;
     top: 0;
     height: 100%;
-    width: 280px;
+    width: 300px;
     background-color: var(--dark-light);
     box-shadow: var(--shadow);
     overflow-y: auto;
@@ -387,6 +387,47 @@ section{
   audio {
       width: 280px;
       margin-top: 2rem;
+      margin-left: 1rem;
+        
+  }
+  audio::-webkit-media-controls-panel{
+      background-color: var(--dark-light);
+  }
+  audio::-webkit-media-controls-mute-button {
+    background-color: var(--main-color);
+    border-radius: 50%;
+  }
+  audio::-webkit-media-controls-play-button {
+    background-color: var(--main-color);
+    border-radius: 50%;
+  }
+  
+  audio::-webkit-media-controls-play-button:hover {
+    background-color: rgb(235, 255, 10, .7);
+  }
+  
+  
+  audio::-webkit-media-controls-current-time-display {
+    color: var(--main-color);
+  }
+  
+  
+  audio::-webkit-media-controls-time-remaining-display {
+    color: var(--main-color);
+  }
+  
+  
+  audio::-webkit-media-controls-timeline {
+    background-color: var(--main-color);
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  audio::-webkit-media-controls-volume-slider {
+    background-color: var(--main-color);
+    border-radius: 25px;
+    padding-left: 8px;
+    padding-right: 8px;
   }
 
 /*--------about section---------*/
