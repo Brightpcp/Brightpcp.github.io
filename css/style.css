@@ -27,7 +27,22 @@ body{
     font-family: 'Press Start 2P', cursive;
     font-weight: 300;
     color: var(--white);
+    
 }
+
+body::-webkit-scrollbar {
+    width: 12px;       
+  }
+  body::-webkit-scrollbar-track {
+    background: #191f3a;
+    border-radius: 3px;
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color: #191f3a ;
+    border-radius: 6px;
+    border: 3px solid #eaa023;
+  }
+
 img{
     vertical-align: middle;
     max-width: 100%;
